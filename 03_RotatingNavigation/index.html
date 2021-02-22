@@ -5,17 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
-    /> -->
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Rotating Navigation</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <!-- Close Icon -->
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <!-- Hamburger Icon -->
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>
+          Amazing
+          <article></article>
+        </h1>
+        <small>John Gilpin</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          numquam. Tempore sit ullam culpa accusantium praesentium sed magni
+          assumenda obcaecati expedita? Labore enim, ducimus at iusto placeat
+          corrupti minus quod? Eaque, tempore vero! Dignissimos, quas quo
+          sapiente veniam facilis nostrum, ut consequuntur quae ex delectus
+          voluptas repellat suscipit earum esse officiis. Harum fugit mollitia
+          totam facilis quam aliquid sit rem, obcaecati dolor unde est, veniam
+          aliquam! Autem perferendis, consectetur quia dolore itaque corrupti
+          ducimus neque velit. Esse et, quisquam illum voluptatibus, libero
+          beatae autem rem, ex dolorum earum mollitia? Earum veniam quod odit
+          optio maiores? Molestiae expedita deleniti accusamus dicta?
+        </p>
+
+        <h3>This is Fine</h3>
+        <img
+          src="https://i.pinimg.com/originals/da/e9/d5/dae9d5fc0800f12f5c720be598b6bea6.png"
+          alt="Image of the 'This is Fine' meme"
+        />
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"> Home</i></li>
+        <li><i class="fas fa-user-alt"> About</i></li>
+        <li><i class="fas fa-envelope"> Contact</i></li>
+      </ul>
+    </nav>
 
     <script src="script.js"></script>
   </body>
